@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEE">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jadwal Mata Kuliah"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:stretchColumns="6"
+        android:layout_marginTop="60dp">
+
+        <TableRow
+            android:background="#FBFF00">
+            <TextView
+                android:layout_column="0"
+                android:text="Jam"
+                android:paddingHorizontal="16dp"/>
+            <TextView
+                android:text="Senin"
+                android:paddingHorizontal="16dp"/>
+            <TextView
+                android:text="Selasa"
+                android:paddingHorizontal="16dp"/>
+            <TextView
+                android:text="Rabu"
+                android:paddingHorizontal="16dp"/>
+            <TextView
+                android:text="Kamis"
+                android:paddingHorizontal="16dp"/>
+            <TextView
+                android:text="Jumat"
+                android:paddingHorizontal="16dp"/>
+            </TableRow>
+        <TableRow
+            android:background="#D6D6D6">
+            <TextView
+                android:layout_column="0"
+                android:text="7.00"
+                android:textAlignment="center"/>
+
+            <TextView android:textAlignment="center" />
+
+            <TextView
+                android:text="MPSI"
+                android:textAlignment="center" />
+
+            <TextView android:textAlignment="center" />
+
+            <TextView android:textAlignment="center" />
+        </TableRow>
+        <TableRow
+            android:background="#FFFFFF">
+            <TextView
+                android:layout_column="0"
+                android:text="9.30"
+                android:textAlignment="center"/>
+            <TextView
+                android:text="KSI"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:text="P Mob"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="MetPen"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="SPK"
+                android:textAlignment="center" />
+
+            <TextView android:textAlignment="center" />
+        </TableRow>
+        <TableRow
+            android:background="#D6D6D6">
+            <TextView
+                android:layout_column="0"
+                android:text="13.00"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:text="SiPrise"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="ADBO"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="KomMas"
+                android:textAlignment="center" />
+        </TableRow>
+    </TableLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_marginTop="640dp"
+        android:background="#FFFFFF">
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="20dp"
+            android:text="Konfirmasi Jadwal" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="220dp"
+            android:layout_marginBottom="20dp"
+            android:text="Ubah Jadwal" />
+    </FrameLayout>
+
+</RelativeLayout>
